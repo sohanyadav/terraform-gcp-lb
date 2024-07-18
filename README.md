@@ -111,6 +111,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 | <a name="input_session_affinity"></a> [session\_affinity](#input\_session\_affinity) | How to distribute load. Options are `NONE`, `CLIENT_IP` and `CLIENT_IP_PROTO` | `string` | `"NONE"` | no |
 | <a name="input_target_service_accounts"></a> [target\_service\_accounts](#input\_target\_service\_accounts) | List of target service accounts to allow traffic using firewall rule. | `list(string)` | `null` | no |
 | <a name="input_target_tags"></a> [target\_tags](#input\_target\_tags) | List of target tags to allow traffic using firewall rule. | `list(string)` | `null` | no |
+
 ## Outputs
 
 | Name | Description |
